@@ -8,11 +8,14 @@ public class Conta {
         this.estado = new Positiva();
     }
 
+    //Métodos gancho
+    //Não tem a lógica propiamente dita, a lógica está nas classes de estado
     public void sacar(double valor){
         this.estado.sacar(valor, this);
     }
 
     public void depositar(double valor) {
+
         this.estado.depositar(valor, this);
     }
 
