@@ -1,4 +1,9 @@
 package br.edu.femass.model.locacao;
 
-public class Concluida {
+public class Concluida extends EstadoLocacao{
+
+    public Concluida(){
+
+    }
+
 }

@@ -1,4 +1,8 @@
 package br.edu.femass.model.locacao;
 
-public class EstadoLocacao {
+public abstract class EstadoLocacao {
+
+    public EstadoLocacao(){
+
+    }
 }
