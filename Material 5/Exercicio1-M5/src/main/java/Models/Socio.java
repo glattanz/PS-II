@@ -32,8 +32,6 @@ public class Socio {
 
     public String consSocio(long cartao_socio){ //Consultar sócio
 
-
-
         return ""; //Retorna os dados de um sócio
     }
 
